@@ -5,9 +5,9 @@ name: Internet.nl monitoring
 
 on:
   push:
-  schedule:
+#  schedule:
     # run every hour
-    - cron: '0 * * * *'
+#    - cron: '0 * * * *'
 
 jobs:
   ipv6-test:
